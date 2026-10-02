@@ -1,0 +1,2 @@
+import { Dumbbell } from "lucide-react";
+export default function Footer(){return <footer className="border-t border-[#222] mt-20"><div className="container py-10 flex flex-col sm:flex-row gap-5 justify-between items-start sm:items-center text-sm text-[#999]"><div className="flex items-center gap-2 text-white font-black tracking-widest"><Dumbbell size={20}/> FITLOG</div><div>© 2026 FitLog — Workout Library. Train hard, log honest.</div></div></footer>}

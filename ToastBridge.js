@@ -1,0 +1,1 @@
+"use client"; import Toast from "./Toast"; import {useApp} from "./Providers"; export default function ToastBridge(){const {toast,setToast}=useApp();return <Toast message={toast} onClose={()=>setToast("")}/>;}
